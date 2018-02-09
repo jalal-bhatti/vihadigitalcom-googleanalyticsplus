@@ -1,0 +1,9 @@
+<?php /** @var $block \Magento\Framework\View\Element\Template */ ?>
+
+<?php $urlParts = $this->helper('Vihadigitalcom\GoogleAnalyticsPlus\Helper\Url')->getUnifiedUrlParts(); ?>
+
+<script>
+    var vihadigitalcomGaBaseUrl = '<?php echo isset($urlParts['path'])?$block->escapeJsQuote($urlParts['path']):''?>';
+
+    var vihadigitalcomGaQuery = '<?php echo isset($urlParts['query'])?$block->escapeJsQuote($urlParts['query']):''?>';
+</script>
