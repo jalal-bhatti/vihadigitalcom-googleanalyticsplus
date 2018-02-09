@@ -1,10 +1,12 @@
 {
     "name": "vihadigitalcom/googleanalyticsplus",
     "description": "Additional functionality for the default Magento Google Analytics",
-	"minimum-stability": "dev",
+    "minimum-stability": "dev",
+    "prefer-stable": true
     "require": {  
-	    	"magento/framework": "100.1.*",      
-		    "magento/magento-composer-installer": "*"
+	    	"magento/framework": "100.1.*",   
+		"magento/module-google-analytics": "^100.2.0"
+		"magento/magento-composer-installer": "*"
     },
     "type": "magento2-module",
     "version": "1.0.4",
