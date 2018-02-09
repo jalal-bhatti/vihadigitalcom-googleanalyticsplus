@@ -4,8 +4,6 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {  
-	    	 
-		"magento/module-google-analytics": "^100.2.0",
 		"magento/magento-composer-installer": "*"
     },
     "require-dev": {
