@@ -1,6 +1,6 @@
 {
     "name": "vihadigitalcom/googleanalyticsplus-m2",
-    "license": "OSL-3.0","AFL-3.0"
+    "license": "OSL-3.0","AFL-3.0",
     "description": "Additional functionality for the default Magento Google Analytics",
     "type": "magento2-module",
     "version": "3.0.0",
